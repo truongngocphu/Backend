@@ -36,6 +36,8 @@ connectDB();
 const allowedOrigins = [
     'http://localhost:3010', // Local development
     'http://localhost:3009', // Local development
+    'https://pageadmin.ngocphu.store', // Local development
+    'https://ngocphu.store', // Local development
 ];
 
 app.use(cors({
